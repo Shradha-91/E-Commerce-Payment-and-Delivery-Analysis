@@ -1,15 +1,25 @@
 # E-Commerce-Payment-and-Delivery-Analysis
 This is online e-commerce site for sellers that connects merchants and their products to the main marketplaces in most of countries
 ## Tables of Contents
-
+- [Project Overview](#Project-Overview)
+- [Data Sources](#Data-Sources) 
+- [ Recommendations](#Recommendations)
 ### Project Overview
 In this project, I conducted a comprehensive analysis of customer behavior, product trends, and order patterns. The main objectives were to create a robust database, perform data joins, and conduct statistical inquiries to extract meaningful insights. Visualization was done using Power BI and Tableau for a more interactive and insightful representation of the findings.
+### Data Sources 
+The primary dataset used for the analysis is Customer dataset , geolocation dataset, order dataset, payments dataset , review dataset, products dataset, sellers datasets
 ### Tools Used
 1.	Microsoft Excel - Utilized Power Query in Microsoft Excel for meticulous data cleaning. Addressed inconsistencies, removed duplicates, handled missing values, and standardized data formats.
 2.	SQL - Employed SQL queries and scripts to perform exploratory data analysis and generate key performance indicators 
 3.	Power Bi - Developed interactive visualizations using Power BI to effectively communicate insights to stakeholders.
 4.	Tableau - Developed interactive visualizations using Tableau to effectively communicate insights to stakeholders.
-   
+### Data Cleaning 
+In the Initial data Preparation,We perform following Tasks:
+1. Data Loading and Inspection
+2. Handling Missing Values
+3. Removing duplicate Rows
+4. Data Cleanning and Formatting
+
 ### Exploratory Data Analysis
 ## 1.	Weekday vs. Weekend Payment Statistics
 •	Description : Analyzing payment behavior differences between weekdays and weekends.
@@ -26,3 +36,11 @@ o	Customers in Sao Paulo City demonstrate a relatively higher average payment va
 ## 3.	Relationship Between Shipping Days vs. Review Scores
 o	Description : Investigating the potential impact of shipping duration on customer review scores.
 o	Analysis : Analyzing the correlation between the number of days taken for shipping and the review scores provided by customers.
+o	Insights : Identifying if there’s a relationship between longer shipping times and lower review scores. This information is valuable in optimizing logistics and customer satisfaction strategies.
+o	Findings :
+	Identified a negative correlation between shipping duration and the review scores provided by customers.
+	The negative correlation suggests that extended shipping times might impact customer satisfaction, potentially leading to lower ratings or dissatisfaction with the overall shopping experience.
+### Recommendations
+•	Prioritizing quicker delivery times or providing clearer communication about expected delivery dates could positively influence customer perceptions and satisfaction.
+•	Implementing targeted marketing campaigns aimed at both retaining existing customers and capitalizing on high sales days.
+•	Focusing on enhancing customer service to encourage repeated engagement and foster loyalty.
